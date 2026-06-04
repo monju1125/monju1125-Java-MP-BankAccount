@@ -35,7 +35,8 @@ public class BankService {
         if (amount<balance) {
             balance = balance - amount;
         }
-        else this.balance = balance;
+        else 
+        System.out.println("Withdrawal should not occur");
     }
 
     /**
